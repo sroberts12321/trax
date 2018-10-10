@@ -9,6 +9,10 @@
   height: 40vmin;
 }
 
+.landing form{
+  display: inline;
+}
+
 .App-header {
   background-color: #282c34;
   background-image: url("./images/landing-bg.jpg");

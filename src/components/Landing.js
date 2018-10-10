@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
 class LandingPage extends Component {
+  componentWillUnmount() {
+
+  }
+
   render() {
     return (
       <div className="landing">
@@ -8,8 +12,12 @@ class LandingPage extends Component {
           <h2 className="welcometitle"> Welcome to trax</h2>
           <h4 className="subtitle"> 5e D&D character tracker</h4>
         </div>
-        <button className="entrybtn createaccountbtn" onClick="location.href='/accountcreation'" type="button">Create Account</button>
-        <button className="entrybtn loginbtn" onClick="location.href='/home'" type="button">Login</button>
+        <form method="get" action="/accountcreation">
+          <button className="entrybtn createaccountbtn" type="submit">Create Account</button>
+        </form>
+        <form method="get" action="/home">
+          <button className="entrybtn loginbtn" type="submit">Login</button>
+        </form>
       </div>
     );
   }
