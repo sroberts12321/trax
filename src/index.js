@@ -8,7 +8,9 @@ import createHistory from 'history/createBrowserHistory'
 import LandingPage from './components/Landing';
 import Home from './components/Home';
 import AccountCreation from './components/AccountCreation';
-import Characters from './components/Characters';
+import Characters from './components/Characters'
+import Tools from './components/Tools'
+import Contact from './components/Contact'
 
 const history = createHistory()
 
@@ -20,6 +22,8 @@ ReactDOM.render(
                 <Route exact path='/home' component={Home} />
                 <Route exact path='/accountcreation' component={AccountCreation} />
                 <Route exact path='/characters' component={Characters} />
+                <Route exact path='/dmtools' component={Tools} />
+                <Route exact path='/contact' component={Contact} />
             </Switch>
         </App>
     </Router>, document.getElementById('root'));

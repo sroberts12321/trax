@@ -1,6 +1,6 @@
-import { combineReducers } from "redux";
-import characterReducer from "./eventReducer";
+// import { combineReducers } from "redux";
+// import characterReducer from "./eventReducer";
 
-export default combineReducers({
-  character: characterReducer
-});
+// export default combineReducers({
+//   character: characterReducer
+// });

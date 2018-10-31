@@ -166,3 +166,65 @@
 .entrybtn {
   margin: 15px;
 }
+
+.icon {
+  background-color: #382547;
+  height:310px;
+  width:350px;
+  display:block;
+}
+.menu-bg{
+  height: 100vh;
+  width: 350px;
+  background-color:#382547;
+}
+.menu{
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.menuItems li {
+  list-style: none;
+  display: inline;
+  margin:15px;
+  color: white;
+}
+
+.menuItems {
+  background-color: #282c34;
+  opacity: 0.8;
+}
+
+.menuItems ul {
+  display: inline;
+}
+
+.sidebar{
+  display:inline;
+}
+
+.characterList{
+  display:inline;
+  margin-left: auto;
+}
+
+.sidebar li {
+  list-style:none;
+  text-align: left;
+  color:black;
+  font-weight: bolder;
+}
+.contact{
+  width: 100vw;
+  height: 100vh;
+}
+
+.tools{
+  width: 100vw;
+  height: 100vh;
+}
+
+.characters{
+  width: 100vw;
+  height: 100vh;
+}
