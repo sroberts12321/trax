@@ -2,7 +2,7 @@
 
 # dependencies
 frontend/node_modules
-backend/node_modules
+dnd-trax/node_modules
 
 # testing
 /coverage
