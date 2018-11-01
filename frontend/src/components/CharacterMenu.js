@@ -4,7 +4,7 @@ class CharacterMenu extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      selectedItem: "equipment"
+      selectedItem: "spells"
     }
   }
 
@@ -24,7 +24,7 @@ class CharacterMenu extends Component {
           <li id="description" onClick={this.onSelect}>Description</li>
           <li id="notes" onClick={this.onSelect}>Notes</li>
         </ul>
-        <div>
+        <div className="features">
           {selectedItem === 'spells' && <div><p>Spells</p></div>}
           {selectedItem === 'equipment' && <div><p>Equipment</p></div>}
           {selectedItem === 'features' && <div><p>Features</p></div>}

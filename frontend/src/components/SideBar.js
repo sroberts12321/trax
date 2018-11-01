@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import CharacterList from './CharacterList'
 
 class SideBar extends Component {
     render() {
